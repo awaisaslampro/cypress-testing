@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App button{
+  margin-top: 19px;
+  width: 103px;
+  background: #33996a;
+  border-radius: 3px;
+  /* padding: 6px 11px; */
+  height: 32px;
+  box-shadow: 2px 2px 10px rgb(37 134 255 / 92%);
+  border: 1px solid lightgreen;
+}
+
+.darkMode{
+  filter: invert(1) hue-rotate(108deg);
+}
+
+.action-email{
+  font-size: 20px;
+  width: 247px;
+    border-radius: 3px;
+    /* padding: 6px 11px; */
+    height: 24px;
+    box-shadow: 2px 2px 10px rgb(37 134 255 / 92%);
+    border: 1px solid lightgreen;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #1d283f7a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
